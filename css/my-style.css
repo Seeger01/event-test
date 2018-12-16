@@ -1,0 +1,64 @@
+.topbar {
+	width: 100%;
+	height: 40px;
+	background-color: #008AF4;
+	color: #EAF5FE;
+}
+
+.topbartext {
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-weight: 100;
+	
+}
+
+.navstyle {
+	height: 
+	60px;
+	border-bottom: solid 1px #F1F1F1;
+}
+
+img {
+	height: 40px;
+	width: 267px;
+	margin-bottom: 15px;
+}
+
+.nav-box {
+	margin-bottom: 15px
+}
+
+.nav-box a {
+	color: #555555;
+	font-size: 13px;
+	margin-left: 15px;
+	font-weight: 100;
+	letter-spacing: 0.6px;
+}
+
+.nav-box a:hover {
+	color: #13aff0;
+}
+
+.btn1 {
+	background-color: #13aff0;
+	color: white;
+	
+}
+
+.btn2 {
+	margin-left: 12px;
+
+}
+
+
+
+
+@media (min-width: 1200px) { 
+	.topbartext {
+
+	margin-left: 155px;
+
+}
+}
