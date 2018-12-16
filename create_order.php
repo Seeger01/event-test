@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-	<html lang='en'>
-		<head>
+<html lang='en'>
 
-		    <meta charset="utf-8">
-		    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		    <meta name="description" content="">
-		    <meta name="author" content="">
+<head>
 
-		    <title>Tilbud</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-		    <!-- Bootstrap core CSS -->
-		    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<title>Tilbud</title>
 
-		    <!-- Custom styles for this template -->
-		    <link href="css/modern-business.css" rel="stylesheet">
-		    <link href="css/my-style.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/modern-business.css" rel="stylesheet">
+	<link href="css/my-style.css" rel="stylesheet">
 
 
-	  	</head>
-	<body>
-<?php
+</head>
+
+<body>
+	<? php
 	$city = filter_input(INPUT_POST, 'by') or die('by mangler');
 	$addresse = filter_input(INPUT_POST, 'adresse') or die('adresse mangler');
 	$dato = filter_input(INPUT_POST, 'dato') or die(' dato mangler');
@@ -130,36 +132,32 @@
 
 	<nav class=" navbar navbar-expand-lg navbar-light">
 
-	      <div class="container-fluid">
-	        <img src="img/logo_2.png">
-		  	
-		  </nav>
-		  
-				<p>Tak for din bestilling vi, vender tilbage med et tilbud til dig hurtigst muligt <?=$navn?> <br>
-					<hr>
-					E-mail-demo <br>
+		<div class="container-fluid">
+			<img src="img/logo_2.png" alt="logo">
+		</div>
+	</nav>
 
-					<p>Tak for din bestilling vi, vender tilbage med et tilbud til dig hurtigst muligt <?=$navn?> <br><br>
-					Du har bestilt følgende: <br><br>
-					&nbsp Lys: <?=$lys?> <br>
-					&nbsp DJ: <?=$dj?> <br>
-					&nbsp Beerpong: <?=$beerpong?> <br>
-					&nbsp Stødbånd: <?=$stodband?> <br>
-					&nbsp Anlæg: <?=$anleg?> <br>
-			s		&nbsp Højtaler 1: <?=$speakers?> <br>
-					&nbsp Højtaler 2: <?=$sspeakers?> <br>
-					&nbsp Soundboks: <?=$soundboks?> <br>
-					&nbsp Kommentar: <?=$kommentar?> <br>
-					Følgende vil blive leveret til <br>
-					&nbsp <?=$navn?>, <?=$addresse?>, <?=$city?> <br>
-					på datoen <?=$dato?>. <br>
+	<p>Tak for din bestilling vi, vender tilbage med et tilbud til dig hurtigst muligt
+		<?=$navn?><br>
+		<hr> E-mail-demo <br>
 
-					Vi ser frem til at spille for dem. <br>
+		<p>Tak for din bestilling vi, vender tilbage med et tilbud til dig hurtigst muligt
+			<?=$navn?><br><br> Du har bestilt følgende: <br><br> &nbsp Lys:
+			<?=$lys?><br> &nbsp DJ:
+			<?=$dj?><br> &nbsp Beerpong:
+			<?=$beerpong?><br> &nbsp Stødbånd:
+			<?=$stodband?><br> &nbsp Anlæg:
+			<?=$anleg?><br> s &nbsp Højtaler 1:
+			<?=$speakers?><br> &nbsp Højtaler 2:
+			<?=$sspeakers?><br> &nbsp Soundboks:
+			<?=$soundboks?><br> &nbsp Kommentar:
+			<?=$kommentar?><br> Følgende vil blive leveret til <br> &nbsp
+			<?=$navn?>,
+			<?=$addresse?>,
+			<?=$city?><br> på datoen
+			<?=$dato?>. <br> Vi ser frem til at spille for dem. <br> Med venlig hilsen Eventlageret.
+		</p>
 
-				Med venlig hilsen Eventlageret.
-				</p>
-			</div>
-  		</body>
-  	</html>
+</body>
 
-
+</html>
